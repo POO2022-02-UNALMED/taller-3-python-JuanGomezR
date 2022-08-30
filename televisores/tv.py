@@ -9,8 +9,8 @@ class TV:
         self.numTV += 1
     def setNumTV(num):
         numTV = num
-    def getNumTV(self):
-        return self.numTV
+    def getNumTV():
+        return numTV
     def getMarca(self):
         return self.marca
     def getControl(self):
