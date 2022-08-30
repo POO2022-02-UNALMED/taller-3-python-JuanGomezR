@@ -7,6 +7,8 @@ class TV:
         self.estado = estado
         self.volumen = 1
         self.numTV += 1
+    def setNumTV(self, num):
+        self.numTV = num
     def getNumTV(self):
         return self.numTV
     def getMarca(self):
@@ -33,8 +35,6 @@ class TV:
     def setCanal(self, canal):
         if self.estado == True and canal >= 1 and canal <= 120:
             self.canal = canal
-    def setNumTV(self, num:int):
-        self.numTV = num
     def turnOn(self):
         self.estado = True
     def turnOff(self):
