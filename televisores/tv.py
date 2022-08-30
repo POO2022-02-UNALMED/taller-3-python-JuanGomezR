@@ -1,5 +1,4 @@
 class TV:
-    numTV = 0
     def __init__(self, marca, estado):
         self.marca = marca
         self.canal = 1
@@ -32,8 +31,8 @@ class TV:
     def setCanal(self, canal):
         if self.estado == True and canal >= 1 and canal <= 120:
             self.canal = canal
-    def setNumTV(self):
-        self.numTV
+    def setNumTV(self, num:int):
+        self.numTV = num
     def turnOn(self):
         self.estado = True
     def turnOff(self):
