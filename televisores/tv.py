@@ -7,8 +7,8 @@ class TV:
         self.estado = estado
         self.volumen = 1
         self.numTV += 1
-    def setNumTV(self, num):
-        self.numTV = num
+    def setNumTV(self, int):
+        self.numTV = int
     def getNumTV(self):
         return self.numTV
     def getMarca(self):
