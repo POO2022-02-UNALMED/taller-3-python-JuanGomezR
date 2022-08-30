@@ -10,7 +10,7 @@ class TV:
     def setNumTV(num):
         numTV = num
     def getNumTV():
-        return numTV
+        return TV.numTV
     def getMarca(self):
         return self.marca
     def getControl(self):
