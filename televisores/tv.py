@@ -6,7 +6,7 @@ class TV:
         self.precio = 500
         self.estado = estado
         self.volumen = 1
-        numTV += 1
+        TV.numTV += 1
     def setNumTV(num):
         numTV = num
     def getNumTV():
