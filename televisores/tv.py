@@ -32,8 +32,8 @@ class TV:
     def setCanal(self, canal):
         if self.estado == True and canal >= 1 and canal <= 120:
             self.canal = canal
-    def setNumTV(self, num):
-        self.numTV = num
+    def setNumTV(self):
+        self.numTV
     def turnOn(self):
         self.estado = True
     def turnOff(self):
